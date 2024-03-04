@@ -1,37 +1,84 @@
 body {
   background-color: lavenderblush;
-
+  margin: 30px 50px 30px 50px;
+  
 }
 h1 {
   color: rgb(169, 60, 165);
-  background-color: azure;
-  margin: 20 10 20 10;
-  padding: auto;
+
+  background-color: lavenderblush;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 50px 30px 50px 30px;
   border-style: ridge;
   border-width: 3px;
   text-align: center;
   position: static;
 }
 p {
-  color: hwb(161 55% 18%);
-  
-
+  color: hwb(160 5% 94%);
+  margin: 2px;
+  margin-bottom: 2vh;
 }
 
 .satisfy-regular {
-  font-family: 'Satisfy', cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Satisfy', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(91, 9, 100);
+  font-size: 40px;
+  padding: 50px 30px 50px 30px;
+  background-color: lavenderblush;
+  
 }
 
 
 #beginning {
-  color: #2ed3bd;
+  color: #f5faf9;
 }
 
 div {
-  background-color: lightgrey;
+  background-color: rgb(229, 200, 235);
+  margin: auto;
+}
+
+h2 {
+  color:#2c7463
+}
+
+h3 {
+  color:rgb(253, 247, 247)
+}
+
+h4{
+  color: rgb(247, 241, 241);
 }
 
 
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+
+.active {
+  background-color: #d444cb;
+}
+.active1 {
+  background-color: #d444cb;
+}
+
+.active2 {
+  background-color: #d444cb;
+}
+
+.active4 {
+  background-color: #d444cb;
+}
+
+.active5 {
+  background-color: #d444cb;
+}
 

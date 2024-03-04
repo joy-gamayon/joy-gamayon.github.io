@@ -1,0 +1,28 @@
+p {
+  color: hwb(161 7% 62%);
+  margin: 2px;
+  margin-bottom: 2vh;
+}
+h1 {
+  color: rgb(169, 60, 165);
+  background-color: azure;
+  margin: 20 10 20 10;
+  padding: auto;
+  border-style: ridge;
+  border-width: 3px;
+  text-align: center;
+  position: static;
+}
+
+h2 {
+  color: aquamarine;
+}
+
+h3 {
+  color:black;
+}
+
+h4{
+  color:black;
+}
+
