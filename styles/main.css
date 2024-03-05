@@ -3,6 +3,16 @@ body {
   margin: 30px 50px 30px 50px;
   
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 h1 {
   color: rgb(169, 60, 165);
 
@@ -14,12 +24,18 @@ h1 {
   border-style: ridge;
   border-width: 3px;
   text-align: center;
-  position: static;
 }
 p {
   color: hwb(160 5% 94%);
   margin: 2px;
   margin-bottom: 2vh;
+  font-size: 20px;
+}
+
+
+
+ {
+
 }
 
 .satisfy-regular {
@@ -45,14 +61,17 @@ div {
 
 h2 {
   color:#2c7463
+  
 }
 
 h3 {
   color:rgb(253, 247, 247)
+ 
 }
 
 h4{
   color: rgb(247, 241, 241);
+  
 }
 
 
@@ -82,3 +101,39 @@ div.relative {
   background-color: #d444cb;
 }
 
+.active3 {
+  background-color: #d444cb;
+}
+
+.nav1 {
+  margin: auto;
+  width: 57%;
+}
+
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 400px) {
+ p  { 
+    font-size: 10px;
+}
+ img { 
+   width: 100px;
+   height: 100px;
+  }
+ 
+}
+
+  /* For tablet: */
+
+  @media only screen and (max-width: 800px) {
+    p  { 
+      font-size: 17px;
+  }
+   img { 
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+  
