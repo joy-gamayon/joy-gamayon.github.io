@@ -90,106 +90,122 @@ When you don't specify any positioning for an element, it's automatically positi
 This means the element appears in the normal flow of the document, exactly where it appears in the HTML code.
 You don't need to use any special CSS rules to achieve static positioning because it's the default behavior.
 Essentially, static positioning is the "hands-off" approach where you let the browser decide where the element should be placed in the page layout.
+</p>
 <br>
 <h3>HTML EXAMPLE:</h3>
-<img src="" alt="Static Html Image">
+<img src="Images/html.png" alt="Static Html Image">
 <br>
 <h3>CSS EXAMPLE:</h3>
-<img src="" alt="Staic CSS Image">
+<img src="Images/css.png" alt="Staic CSS Image">
 <br>
 <h3>RESULT:</h3>
-<img src="" alt="Static Result">
+<img src="Images/staticresult.png" alt="Static Result">
 <br>
 <br>
+<p>
 As you can see on the diagram provided, it shows that the coloured squares are stacking one by one from top to bottom. That is due to the (div) element used because this is a block element, which is the generic container for flow content.
 </p>
 <br>
 <h3>Relative Positioning:</h3>
-
+<p>
 Imagine you have an element on a webpage, like a button or an image.
 If you want to slightly adjust where this element appears on the page without affecting everything else, you use relative positioning.
 So, you tell your browser, "Hey, I want this element to stay in its normal place, but I want it to move a bit from there."
 You do this by saying position: relative; in your CSS for that element.
 Then, you can use properties like top, bottom, left, or right to nudge the element up, down, left, or right from its normal position.
+<p>
 <br>
+<p>
 Then, there's "relative" positioning, it is kind of like letting us move things around a bit from their normal spot on the page.
+</p>
 <br>
 <br>
-For instance: We set the blue squared into relative position and added the offset data value of top = 20px & left = 60 px to change its position.
+<p>
+For instance: We set the blue squared into relative position and added the offset data value of top = 30px & left = 30px to change its position.
+</p>
 <br>
 <h3>CSS EXAMPLE:  BLUE SQUARE</h3>
-<img src="" alt="Relative CSS Image">
+<img src="Images/Relative.CSS.png" alt="Relative CSS Image">
 <br>
 <h3>RESULT:</h3>
-<img src="" alt="Result CSS Image">
+<img src="Images/relative.result.png" alt="Result CSS Image">
 <br>
 <br>
-As you can see from the result, we noticed that the blue square moved away by 20px from the top and from the red square, as it is going down. 
-It also moved away from the left by 60px going to the right side without affecting the other coloured square, as it overlaps from it and ignoring their existence.
+<p>
+As you can see from the result, we noticed that the blue square moved away by 30px from the top and from the red square, as it is going down. 
+It also moved away from the left by 30px going to the right side without affecting the other coloured square, as it overlaps from it and ignoring their existence.
+</p>
 <br>
 <br>
 <h3>Absolute Positioning:</h3>
 <br>
+<p>
 Now, let's say you want an element to be in a specific spot on your page, no matter what. 
 You use absolute positioning for that.
 You tell your browser, "Forget about where this element should be in the page flow.
 I want it to be in a certain place, relative to its closest positioned ancestor or the whole page itself."
 You do this by saying position: absolute; in your CSS for that element.
 Then, you can use properties like top, bottom, left, or right to specify exactly where you want the element to be, relative to its closest positioned ancestor or the whole page.
+</p>
 <br>
+<p>
 Let say "Absolute" positioning lets us place things exactly where we want them, kind of like picking up a piece of furniture and putting it in a specific corner of the room.
+</p>
 <br>
 <br>
-For instance: We positioned the element into absolute with offset data value of top = 60px and left 60px; let's see how the blue square react from its declaration. 
+<p>
+For instance: We positioned the element into absolute with offset data value of top = 20px and left 30px; is positioned relative to the container. let's see how the blue square react from its declaration. 
+</p>
+<br>
+<h3>HTML EXAMPLE:</h3>
+<img src="Images/Absolute-html.png" alt="Absolute CSS">
 <br>
 <h3>CSS EXAMPLE:</h3>
-<img src="" alt="Absolute CSS">
+<img src="Images/Absolute-css.png" alt="Absolute CSS">
 <br>
 <h3>RESULT:</h3>
-<img src="" alt="Absolute result">
+<img src="Images/Absolute-result.png" alt="Absolute result">
 <br>
 <br>
-We can see that the blue square overlaps the red and green squares. You noticed the green square took over the spot from where the blue square was coming from. 
-This is beacuse the absolute position has no connection to the container and is now out from a normal flow, thus it will not contain any closest relative position parents.
- Therefore, the positioning will take place just within the viewport and the blue square positioned according to the viewport or from the whole page. 
- It shows that the blue square moved away from the top by 60px and moved away by 60px from the left side within the viewport.
-<br>
-<h3>FOR EXAMPLE:</h3>
-<img src="">
-<br>
-<br>
-To connect the blue square back to its container and from other containers, we just need to apply the relative position to the container or to its parent.
+<p>
+  It shows from the result diagram that the blue square is placed inside a gray container. The reason for this is that, as the container is the blue square's nearest ancestor element, the blue square is positioned in relation to it.
+  In addition, when the blue square doesn't have any closest parents or ancestor elements, it will positioned relative to the containing blocks, and moves while being scroll.
+</p>
 <br>
 <br>
 <h3>Fixed Positioning:</h3>
-
+<p>
 Now, let's say you want something to stick to the screen, no matter if you scroll up or down.
 That's where fixed positioning comes in.
 You tell your browser, "I want this element to always be in the same place, no matter where the rest of the page is."
 You do this by saying position: fixed; in your CSS for that element.
 Then, you can use properties like top, bottom, left, or right to specify where you want the element to stick on the screen, and it'll stay there even if you scroll.
+</p>
 <br>
 <br>
-For instance: We applied relative position to the container and on the other hand the blue square is set to fixed position and has an offset data value of top = 0px and left = 0px. Let's check how it reacted from the result diagram.
+<p>
+For instance: We applied relative position to the container and on the other hand the blue square is set to fixed position. Let's check how it reacted from the result diagram.
+</p>
 <br>
 <br>
 <h3>CSS EXAMPLES:</h3>
-<img src="" alt="Fixed CSS">
-<br>
-<img src="" alt="Fixed2 CSS">
+<img src="Images/fixed-example.png" alt="Fixed CSS">
 <br>
 <h3>RESULT:</h3>
-<img src="" alt="Fixed result">
+<img src="Images/fixed-result.png" alt="Fixed result">
 <br>
 <br>
-Looking at the result, we can see that the blue square ignored the container relative position applied, and we found it in the left corner of the viewport as we set top = 0px and left = 0px. 
-This is because the blue sqaure is specified by positioned fixed, which means it will not respect any containers and will totally ignore them. 
-It will just stay from where it is being positioned, and whenever you scroll down and up, it will just be visible on the window screen and the rest of the squares will disappear, as we scroll up and down. 
+<p>
+Looking at the result, we can see that the blue square ignored the container relative position applied. 
+This is because the blue sqaure is specified by positioned fixed, which means it will not respect any containers and will totally ignore the elements closed by. 
+It will just stay from where it is being positioned, and whenever you scroll down and up, it will gong to be visible on the window screen and the rest of the squares will disappear, as we scroll up and down. 
 It just moves freely and anywhere around the viewport.
+</p>
 <br>
 <br>
-<h3s>In summary:</h3>
+<h3>In summary:</h3>
 <br>
+<p>
 Static positioning is the default behavior where elements appear in the normal flow of the document.
 <br>
 Relative positioning lets you adjust an element's position relative to where it would normally be.

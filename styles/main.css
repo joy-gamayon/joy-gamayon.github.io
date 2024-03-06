@@ -110,7 +110,15 @@ div.relative {
   width: 57%;
 }
 
-
+.cities {
+  font-size: 20px;
+}
+.cities1 {
+  font-size: 20px;
+}
+.info {
+  font-size: 20px;
+}
 
 /* For mobile phones: */
 @media only screen and (max-width: 400px) {
@@ -131,9 +139,30 @@ div.relative {
       font-size: 17px;
   }
    img { 
-      max-width: 100%;
+      max-width: 60%;
       height: auto;
       border-radius: 50%;
     }
   }
   
+  /* For Desktop: */
+
+  @media only screen and (min-width: 800px) {
+    p  { 
+      font-size: 20px;
+  }
+   img { 
+      max-width: 80%;
+      height: auto;
+      
+    }
+    .cities {
+      font-size: 20px;
+    }
+    .info {
+      font-size: 20px;
+    }
+    .cities {
+      font-size: 20px;
+    }
+  }
