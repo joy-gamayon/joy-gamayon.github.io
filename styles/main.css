@@ -153,10 +153,10 @@ div.relative {
   }
    img { 
       max-width: 80%;
-      height: auto;
-      
+      height: auto;   
     }
-    .cities {
+ 
+  .cities {
       font-size: 20px;
     }
     .info {
