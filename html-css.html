@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <title>My First blog</title>
-    <style>
-      body {
+<link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+<style>    
+body {
         background-image: url('Images/daisy.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -41,24 +42,47 @@
   background-color: #81127f;
 }
     </style>
+
+    <title>My First blog</title>
   </head>
+  
   <body>
-    
-      <header>
-        <nav>
-        <h1 class="satisfy-regular">Relative, Absolute, & Fixed Positioning</h1>
-        <ul>
-          <li><a href="index.html">JOY'S BLOG</a></li>
-      <li><a href="culture-values-identity.html">CORE BLOG</a></li>
-      <li><a href="blog/te-houtaewa-template.html">TE HOUTEAWA</a></li>
-      <li><a class="active3" href="html-css.html">TECH BLOG</a></li>
-      <li><a href="learning-plan.html">LEARNING PLAN</a></li>
-      <li><a href="emotional-intelligence.html">EMOTIONAL INTELLIGENCE</a></li>
-      <li><a href="javascript-dom.html">JAVASCRIPT FUDAMENTALS</a></li>
-      <li><a href="html-css-relationship.html">HTML AND CSS RELATIONSHIP</a></li>
-        </ul>
-      </nav>
-      </header>
+    <!--Starting Header-->
+      <div>
+        <h1 class="gorditas-bold">Relative, Absolute, & Fixed Positioning</h1>
+        <img class="icon" src="Images/stitch.jpg" alt="Stitch-icon">
+      </div>
+       
+          <div class="nav1">
+            <header>
+    <div class="dropdown">
+      <button class="dropbtn">CORE BLOGS</button>
+      <div class="dropdown-content">
+        <a class="elsie-black" href="index.html">JOY'S BLOG</a><br>
+        <br>
+        <a class="elsie-black" href="culture-values-identity.html">Culture,Values, & Identity</a><br>
+        <br>
+        <a class="elsie-black" href="blog/te-houtaewa-template.html">TE HOUTEAWA</a><br>
+        <br>
+        <a class="elsie-black" href="learning-plan.html">Learning Plan</a><br>
+        <br>
+        <a class="elsie-black" href="emotional-intelligence.html">Emotional Intelligence</a><br>
+      </div>
+      </div>
+ 
+<div class="dropdown">
+<button class="dropbtn">TECH BLOGS</button>  
+<div class="dropdown-content">
+<a class="elsie-black" class="active3" href="html-css.html">Relative, Absolute, & Fixed Positioning</a><br>
+<br>
+<a class="elsie-black" href="javascript-dom.html">Javascript Fudamentals</a><br>
+<br>
+<a class="elsie-black" href="html-css-relationship.html">HTML & CSS Relationship</a><br>
+</div> 
+</div>
+</header>
+</div>
+
 <div>
       <h2>What are the steps by steps differences between relative, absolute, and fixed positioning?</h2>
     <p>Before we proceed with the step by step explaination. Let's start by talking about the normal flow of the document first, 
@@ -200,7 +224,7 @@ For instance: We applied relative position to the container and on the other han
 <p>
 Looking at the result, we can see that the blue square ignored the container relative position applied. 
 This is because the blue sqaure is specified by positioned fixed, which means it will not respect any containers and will totally ignore the elements closed by. 
-It will just stay from where it is being positioned, and whenever you scroll down and up, it will gong to be visible on the window screen and the rest of the squares will disappear, as we scroll up and down. 
+It will just stay from where it is being positioned, and whenever you scroll down and up, it will going to be visible on the window screen and the rest of the squares will disappear, as we scroll up and down. 
 It just moves freely and anywhere around the viewport.
 </p>
 <br>
