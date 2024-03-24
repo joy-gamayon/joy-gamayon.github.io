@@ -110,6 +110,9 @@ div.relative {
   background-color: #edd7eb;
 }
 
+.active8 {
+  background-color: #edd7eb;
+}
 
 .nav1 {
   margin: auto;
@@ -249,4 +252,109 @@ div.relative {
     font-family: "Gorditas", serif;
     font-weight: 700;
     font-style: normal;
+  }
+
+  div.physical {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 200px;
+  }
+  
+  div.physical:hover {
+    border: 1px solid #777;
+  }
+  
+  div.physical img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.wellbeing {
+    padding: 15px;
+    text-align: left;
+  }
+
+  div.mentalhealth {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.mentalhealth:hover {
+    border: 1px solid #777;
+  }
+  
+  div.mentalhealth img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.wellbeing1 {
+    padding: 15px;
+    text-align: left;
+  }
+
+  
+  div.spiritual {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 200px;
+  }
+  
+  div.spiritual:hover {
+    border: 1px solid #777;
+  }
+  
+  div.spiritual img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.wellbeing2 {
+    padding: 15px;
+    text-align: left;
+  }
+  div.family {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.family:hover {
+    border: 1px solid #777;
+  }
+  
+  div.family img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.wellbeing3 {
+    padding: 15px;
+    text-align: left;
+  }
+
+  div.nature {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 200px;
+  }
+  
+  div.nature:hover {
+    border: 1px solid #777;
+  }
+  
+  div.nature img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.wellbeing4 {
+    padding: 15px;
+    text-align: left;
   }
