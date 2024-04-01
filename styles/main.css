@@ -141,6 +141,11 @@ div.relative {
   background-color: #edd7eb;
 }
 
+.active9 {
+  background-color: #edd7eb;
+}
+
+
 .nav1 {
   margin: auto;
   width: 90%;
@@ -250,8 +255,8 @@ div.relative {
     width: 10%;
     height: auto;
     float: right;
-  position: relative;
-  border-radius: 50%;
+    position: relative;
+    border-radius: 50%;
   }
   
   div.gallery {
@@ -384,4 +389,28 @@ div.relative {
   div.wellbeing4 {
     padding: 15px;
     text-align: left;
+  }
+
+  .problem-solving {
+    width: 100%;
+    height:auto;
+   
+  }
+
+
+  .block-image {
+    width: 400px; 
+    height: auto; 
+  }
+  .elegantly-image {
+    width: 400px; 
+    height: auto; 
+  }
+  .solution-image {
+    width: 400px; 
+    height: auto; 
+  }
+  .asking-image {
+    width: 400px; 
+    height: auto; 
   }
